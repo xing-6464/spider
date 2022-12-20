@@ -30,3 +30,9 @@ import requests
 # data = res.json()
 # print(data)
 # print(data['origin'])
+
+# 设置请求头
+# header = {
+#     'user-agent': 'imooc/v1'
+# }
+# res = requests.get('http://httpbin/ip', headers=header)
