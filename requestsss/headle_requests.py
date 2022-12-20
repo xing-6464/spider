@@ -36,3 +36,11 @@ import requests
 #     'user-agent': 'imooc/v1'
 # }
 # res = requests.get('http://httpbin/ip', headers=header)
+
+
+# 为请求设置请求超时时间
+# res = requests.get('http://github.com', timeout=2)
+# print(res.status_code)
+# print(res.text)
+# 请求超时的错误
+# requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out. (read timeout=0.001)
