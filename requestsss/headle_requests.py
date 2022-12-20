@@ -44,3 +44,24 @@ import requests
 # print(res.text)
 # 请求超时的错误
 # requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out. (read timeout=0.001)
+
+
+# 获取cookies
+# url = 'http://www.baidu.com'
+# header = {
+#     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+# }
+# res = requests.get(url, headers=header)
+# print(res.headers)
+# print(res.text)
+# print(res.cookies)
+# print(res.cookies['H_PS_PSSID'])
+
+
+# url = 'http://httpbin.org/cookies'
+# # 使用dict构造cookies
+# cookies = dict(cookies_are='hello imooc')
+# res = requests.get(url, cookies=cookies)
+# print(res.text)
+
+
