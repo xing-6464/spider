@@ -20,3 +20,10 @@ pattern = re.compile(r'\d+')
 # m1 = pattern.findall('one12twothree34four')
 # print(m1)
 
+# string = 'a,b,c'
+# print(string.split(','))
+
+pattern = re.compile(r'[\s\,\;]+')
+str = 'a,b;; c d'
+print(pattern.split(str))
+
