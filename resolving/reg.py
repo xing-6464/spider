@@ -15,3 +15,8 @@ pattern = re.compile(r'\d+')
 # m1 = pattern.search('one12twothree34four')
 # print(m1)
 
+
+# findall 搜索全文匹配符合的字符串返回list
+# m1 = pattern.findall('one12twothree34four')
+# print(m1)
+
